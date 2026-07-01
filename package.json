@@ -1,0 +1,13 @@
+{
+  "name": "innovatech-backend",
+  "version": "1.0.0",
+  "description": "Backend Innovatech Chile - EP3 ISY1101",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
