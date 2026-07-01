@@ -19,7 +19,7 @@ app.get('/health', (req, res) => {
 // Endpoint principal consumido por el frontend
 app.get('/api/status', (req, res) => {
   res.status(200).json({
-    message: 'Backend Innovatech Chile operativo',
+    message: 'Backend Innovatech Chile operativo - v2 (CI/CD test)',
     hostname: os.hostname(),
     environment: ENV_NAME,
     apiKeyConfigured: API_KEY !== 'no-configurado',
